@@ -1,0 +1,2 @@
+target1 ansible_host=AnsibleTarget1 ansible_ssh_pass=13nes18DIO!1
+target2 ansible_host=AnsibleTarget2 ansible_ssh_pass=13nes18DIO!1
