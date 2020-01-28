@@ -4,3 +4,5 @@
  tasks:
   - name: Ping test
     ping: 
+  - name: Show date
+    command: date
