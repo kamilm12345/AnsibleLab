@@ -4,5 +4,10 @@
  tasks:
   - name: Ping test
     ping: 
-  - name: Show date
-    command: date
+- 
+ name: Create file
+ host: target1
+ tasks:
+  - name: Create file
+    command: cat < testfile.xtx
+    test text
