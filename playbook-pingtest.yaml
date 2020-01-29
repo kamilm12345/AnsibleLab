@@ -5,9 +5,9 @@
   - name: Ping test
     ping: 
 - 
- name: Create file
- hosts: target1
- tasks:
-  - name: Create file
-    command: cat > testfile.txt test text
+ name: Copy file with owner and permissions
+ hosts: all
+ copy:
+  remote src: root@target1:/AnsibleLab/testfile.txt
+  remote dest: root@target2:/AnsibleLab/testfile.txt
     
