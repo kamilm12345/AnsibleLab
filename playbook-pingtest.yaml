@@ -8,8 +8,8 @@
  name: Copy file with owner and permissions
  hosts: all
  tasks:
-  - copy:
-    name: Copy file
+  - name: Copy file
+    copy:
      src: /AnsibleLab/testfile.txt
      dest: /AnsibleLab/testfile.txt
     
