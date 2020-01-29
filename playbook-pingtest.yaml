@@ -9,5 +9,5 @@
  hosts: target1
  tasks:
   - name: Create file
-    command: cat > testfile.txt
-    test test
+    command: cat > testfile.txt test text
+    
