@@ -8,7 +8,8 @@
  name: Copy file with owner and permissions
  hosts: all
  tasks:
-  fetch:
-   remote src: root@target1:/AnsibleLab/testfile.txt
-   remote dest: root@target2:/AnsibleLab/testfile.txt
+  - fetch:
+    name: Copy file
+     remote src: root@target1:/AnsibleLab/testfile.txt
+     remote dest: root@target2:/AnsibleLab/testfile.txt
     
