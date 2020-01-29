@@ -10,6 +10,6 @@
  tasks:
   - copy:
     name: Copy file
-     remote src: root@target1:/AnsibleLab/testfile.txt
-     remote dest: root@target2:/AnsibleLab/testfile.txt
+     remote_src: root@target1:/AnsibleLab/testfile.txt
+     remote_dest: root@target2:/AnsibleLab/testfile.txt
     
