@@ -9,4 +9,4 @@
  hosts: target1
  tasks:
   - name: Create file
-    command: cat < testfile.xtx
+    command: cat < testfile.txt
