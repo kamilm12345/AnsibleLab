@@ -10,6 +10,6 @@
  tasks:
   - name: Copy file
     copy:
-     src: /home/root/AnsibleLab/testfile.txt
-     dest: /home/root/AnsibleLab/testfile.txt
+     src: /home/Kamil/AnsibleLab/testfile.txt
+     dest: /home/Kamil/AnsibleLab/testfile.txt
     
